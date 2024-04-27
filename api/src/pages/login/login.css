@@ -38,3 +38,45 @@
     font-weight: 400;
     line-height: 20px;
 }
+
+.loginWrapper .form-wrapper .div-wrapper .form-contents .continue-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.loginWrapper .form-wrapper .div-wrapper .form-contents .account {
+    text-align: center;
+
+}
+
+.loginWrapper .form-wrapper .div-wrapper .form-contents .account p {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.loginWrapper .form-wrapper .div-wrapper .form-contents .account .have-an-account span a {
+    text-decoration: none;
+    color: rgb(61, 61, 239);
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.loginWrapper.form-wrapper .div-wrapper .form-contents .account .forgot-password {
+    padding: 4px 0;
+
+}
+
+.loginWrapper .form-wrapper .div-wrapper .form-contents .account .forgot-password a {
+    color: rgb(61, 61, 239);
+    text-decoration: none;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
