@@ -1,0 +1,33 @@
+.google{
+    width: 399px;
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid #B0B0B0;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+    color: #1D1B20;
+    cursor: pointer;
+}
+
+.google .icon{
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.google .text{
+    font-size: 14px;
+}
+
+.google:hover{
+    background-color: #DDDDDD;
+    border: 1px solid #DDDDDD;
+}
+
+@media screen and (max-width:540px) {
+    .google{
+        width: 90vw;
+    }
+
+}
