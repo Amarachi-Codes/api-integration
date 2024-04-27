@@ -17,7 +17,7 @@ const Login = () => {
                             <Input label="Password" type="password" />
                             <Button text="Login" type="normal" />
                             <div className="account">
-                                <p className="have-an-account">Don't have an account? <span><NavLink to={""}>Sign up</NavLink></span></p>
+                                <p className="have-an-account">Don't have an account? <span><NavLink to={"/signup"}>Sign up</NavLink></span></p>
                                 <div className="forgot-password">
                                 <NavLink to={""}>Forgot Password?</NavLink>
                                 </div>
