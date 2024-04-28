@@ -10,8 +10,10 @@
     padding-top: 77px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 16px;
     padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 .recentsales .recentContainer .recentHeading{
     font-family: 'Gilroy-Bold' sans-serif;
