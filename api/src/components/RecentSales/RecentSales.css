@@ -1,0 +1,24 @@
+.recentsales{
+    width: 29vw;
+    height: 100vh;
+    overflow-y: scroll;
+    position: sticky;
+    top: 0;
+}
+
+.recentsales .recentContainer{
+    padding-top: 77px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 10px;
+}
+.recentsales .recentContainer .recentHeading{
+    font-family: 'Gilroy-Bold' sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 12px;
+    color: #000000;
+    padding-left: 3%;
+}

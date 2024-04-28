@@ -1,0 +1,65 @@
+.app__container{
+    display: flex;
+    
+  }
+  .app__container .sidebarWrapper{
+    width: 20vw;
+    background-color: #ebf1ff;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    border-right: 1px solid #727272;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .app__container .sidebarWrapper .logoWrapper{
+    margin-top: 40px;
+    margin-left: 44px;
+  }
+  .app__container .sidebarWrapper .sidebar{
+    margin-left: 44px;
+  }
+ 
+  
+ .app__container .sidebarWrapper .sidebar ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px; 
+    padding: 6px 0;
+    margin: 16px 0;
+    list-style: none;
+    color: #000;
+    
+  }
+  .app__container .sidebarWrapper .sidebar ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    display: flex;
+    align-items: center;
+    gap:20px
+    
+  }
+  .app__container .sidebarWrapper .sidebar ul li a:focus{
+    color: #000;
+  }
+ 
+ 
+  .app__container .app__content{
+    width: 80vw;
+  }
+
+  @media screen and (max-width:912px) {
+    .app__container .sidebarWrapper{
+      display: none;
+    } 
+
+    .app__container .app__content{
+      width: 100vw;
+    }
+      
+  }
