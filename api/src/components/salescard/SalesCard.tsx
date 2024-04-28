@@ -1,16 +1,25 @@
 import "./Salescard.css";
+interface ICard{
+    img: string
+    foodname: string
+    restaurant: string
+    price: string
+}
 
-const SalesCard = () => {
+const SalesCard = ({img, foodname, restaurant, price}:ICard) => {
     return (
         <>
             <div className="card">
-                <img src="https://cloverstatic.com/menu-assets/items/PMRQ7JZNN2BMG_120x120.jpeg" alt="" />
+                <img src={img} alt="" />
                 <div className="item">
-                    <p>White Rice and Pork Meat Stew</p>
-                    <p>Chicken Republic</p>
+                    <p>{foodname}</p>
+                    
+                    <p>{restaurant}</p>
+                  
                 </div>
                 <div className="price">
-                    <p>N2800.00</p>
+                    <p>{price}</p>
+                   
                 </div>
             </div>
         </>
