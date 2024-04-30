@@ -2,9 +2,7 @@
 import Button from "../../components/Button/Button";
 import Input from "../../components/Input/Input";
 import "./signup.css";
-import axios from "axios";import { ZodType, z } from "zod";
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
+
 
 
 
