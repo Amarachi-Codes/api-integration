@@ -13,7 +13,7 @@ const Input = ({label, type, name }:Iinput) => {
       <input type={type} name={name} />
     </div>
     </>
-  )
-}
+  );
+};
 
-export default Input
+export default Input;

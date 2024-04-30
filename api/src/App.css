@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 } */
+
+
+
+.mantine-Input-input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  background: red;
+}
